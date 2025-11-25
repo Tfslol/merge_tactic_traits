@@ -25,8 +25,10 @@ DUMMY = [Trait1, Trait2]   # dummy's trait
 ```
 
 For example:
+```python
 NUM_CHARACTERS = 7
 DUMMY = [NOBLE, UNDEAD]
+```
 
 ### 2. **Origins and Roles**
 
@@ -64,7 +66,7 @@ Each line in these files lists:
 Example:
 
 ```
-gob_machine,mega_knight,pekka,prince,spear_gobs,valkyrie,witch,noble+undead,->,ace_2,avenger_2,brawler_2,goblin_2,juggernaut_2,noble_2,undead_2
+archer_queen,bandit,barbarians,dart_goblin,goblins,mega_knight,->,ace_2,assassin_2,brawler_2,clan_2,goblin_2,ranger_2
 ```
 
 ---
@@ -82,7 +84,6 @@ gob_machine,mega_knight,pekka,prince,spear_gobs,valkyrie,witch,noble+undead,->,a
    * The **best synergy score**
    * A **ranking of most frequently used characters** in top teams
 4. The full list of top-scoring teams is saved to the output files defined in:
-
    ```python
    filename = f"{base_filename}_{category}.csv"
    ```
